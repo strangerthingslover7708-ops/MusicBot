@@ -26,6 +26,7 @@ module.exports = {
         defaultVolume: 100,
         maxQueueSize: 100,
         maxPlaylistSize: 50,
+        defaultEngine: 'soundcloud',
         status: process.env.STATUS || 'Command /play',
         embedColor: process.env.EMBED_COLOR || '#FF6B6B',
         supportServer: process.env.SUPPORT_SERVER || 'https://discord.gg/ACJQzJuckW',
