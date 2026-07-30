@@ -50,7 +50,7 @@ module.exports = {
             await interaction.editReply({ content: searchingMsg });
 
             // Sadece müzik verilerini al (player'a ekleme yapma)
-            const trackData = await this.getTrackData(query, guild.id);
+            const trackData = await this.getTrackData(query, guild.id, 'soundcloud');
 
             if (!trackData.success) {
                 return await interaction.editReply({
