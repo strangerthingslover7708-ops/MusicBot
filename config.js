@@ -34,8 +34,9 @@ module.exports = {
         invite: 'https://discord.com/oauth2/authorize?client_id=' + process.env.CLIENT_ID + '&permissions=8&scope=bot%20applications.commands',
     },
 
-    // Audio Settings
-    audio: {
+      // Audio Settings
+  audio: {
+    defaultSearchEngine: 'soundcloud',
         quality: 'highestaudio',
         format: 'mp3',
         bitrate: 320,
